@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Tailwind</title>
+</head>
+<body class="bg-gray-100">
+    <!-- Header - Nav Bar -->
+    <header class="bg-white py-4 px-8 md:px-12 lg:px-16">
+        <nav class="flex justify-between items-center">
+            <div>
+                <img class="w-32" src="../src/logo-green.png" alt="">
+            </div>
+            <div class="flex items-center gap-12">
+                <ul class="items-center gap-8 hidden md:flex">
+                    <li class="hover:text-customGreen cursor-pointer">Home</li>
+                    <li class="hover:text-customGreen cursor-pointer">How Tere Works</li>
+                    <li class="hover:text-customGreen cursor-pointer">Tere Benefits</li>
+                </ul>
+                <button class="border py-2 px-6 rounded-md bg-customGreen text-white hidden md:block">Help Center</button>
+            </div>
+            <div class="h-8 md:hidden">
+                <img class="h-full" src="../src/hamburger.png" alt="">
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Section - Hero Section -->
+    <section class="flex gap-2 flex-col-reverse items-center md:flex-row py-16 px-8 justify-around">
+        <div class="flex flex-col justify-center space-y-8 md:space-y-16 w-4/5 h-full">
+          <h1 class="text-center font-bold text-4xl h-full">DOWNLOAD APP, SAVE MONEY, MAKE FRIENDS!</h1>
+          <p class="text-center text-customGray h-full">It's simple and it's free. Play your part in reducing Carbon Footprint and help Mother Nature sustain its beauty. So what are you waiting for? Let's ride together.</p>
+          <div class="flex justify-center space-x-4 ">
+            <button class="flex items-center bg-black text-white w-[150px] py-1 px-3">
+              <img src="../src/icon_play-store.png" alt="">
+              Download
+            </button>
+            <button class="flex items-center bg-black text-white w-[150px] py-1 px-3">
+              <img src="../src/icon_app-store.png" alt="">
+              Download
+            </button>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <img class="w-2/3 h-full" src="../src/hero-img.png" alt="">
+        </div>
+      </section>
+      
+    <!-- Section - Apply -->
+    <section class="flex flex-col gap-4 bg-customGreen py-8 px-4 mx-4 md:mx-12 rounded-md justify-around md:flex-row">
+        <p class="text-white text-lg self-center">Let’s go. Get a link to download the app.</p>
+        <div class="flex space-x-4">
+            <input placeholder="Enter mobile phone number" class="md:h-full w-full md:w-[300px] px-4" type="text">
+            <button class="bg-black text-white w-[30%] md:w-[150px] py-2 px-4">APPLY TO DRIVE</button>
+        </div>
+    </section>
+
+    <!-- Section - Working -->
+    <section class="flex flex-col items-center py-12 gap-4">
+        <h1 class="text-center text-2xl font-bold">HOW <span class="text-customGreen">TERE</span> WORKS</h1>
+        <p class="text-center w-2/3 text-customGray">Download and install the tere app. Enter your phone number and make your user account. when approved you may start driving.</p>
+    </section>
+
+    <!-- Section - Working Steps -->
+    <section class="grid grid-cols-1 place-content-center gap-4 md:grid-cols-3 md:mx-4 md:p-8 lg:mx-12 lg:p-12">
+        <div class="flex flex-col justify-between items-center">
+            <div class="flex flex-col space-y-2 items-center">
+                <h1 class="text-center w-1/2 text-customGreen text-6xl">1</h1>
+                <h1 class="text-center w-1/2 font-bold text-xl ">REQUEST A RIDE</h1>
+                <p class="text-center w-1/2 text-customGray">Have to reach office or going for shopping? Just put your current location and destination and search a ride that suits you</p>
+            </div>
+            <div class="flex flex-col space-y-2 items-center">
+                <h1 class="text-customGreen w-1/2 text-6xl text-center">3</h1>
+                <h1 class="font-bold text-xl w-1/2 text-center">INSTANT NOTIFICATIONS</h1>
+                <p class="text-customGray w-1/2 text-center">Get instant notifications for your rides and be in contact with fellow riders all the time</p>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <img src="../src/mobile.png" alt="">
+        </div>
+        <div class="flex flex-col justify-between">
+            <div class="flex flex-col space-y-2 items-center">
+                <h1 class="text-center text-customGreen w-1/2 text-6xl">2</h1>
+                <h1 class="text-center font-bold w-1/2 text-xl">POST A RIDE</h1>
+                <p class="text-center text-customGray w-1/3">Going somewhere but hate to travel alone - just post your ride details and publish it</p>
+            </div>
+            <div class="flex flex-col space-y-2 items-center">
+                <h1 class="text-center text-customGreen w-1/3 text-6xl">4</h1>
+                <h1 class="text-center font-bold w-1/3 text-xl">CASHLESS PAYMENT</h1>
+                <p class="text-center text-customGray w-1/3">Payment made easy by using your own Wallet - no more cash to carry</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section - Benefits -->
+    <section class="mt-8">
+        <h1 class="text-2xl font-bold text-center"><span class="text-customGreen">TERE</span> BENEFITS</h1>
+        <div>
+            <div class="flex p-8">
+                <div class="w-[95%] bg-white flex p-8 justify-around h-auto rounded-md self-start flex-col items-center md:flex-row">
+                    <div class="w-[60%]">
+                        <h1 class="text-customGreen text-4xl font-bold inline">01.</h1>
+                        <h3 class="font-bold text-2xl inline">Flexible Working Hours</h3>
+                        <p class="text-customGray mt-4">You can decide when, and how much time you want to drive.</p>
+                    </div>
+                    <div class="h-40">
+                        <img class="h-full" src="../src/img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex p-8">
+                    <div class="w-[95%] bg-white flex p-8 justify-around h-auto rounded-md self-end flex-col items-center md:flex-row">
+                        <div class="w-[60%]">
+                            <h1 class="text-customGreen text-4xl font-bold inline">02.</h1>
+                            <h3 class="font-bold text-2xl inline">Earnings</h3>
+                            <p class="text-customGray mt-4">By driving with tere you can earn more.</p>
+                        </div>
+                        <div class="h-40">
+                            <img class="h-full" src="../src/img-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex p-8">
+                    <div class="w-[95%] bg-white flex p-8 justify-around h-auto rounded-md self-start flex-col items-center md:flex-row">
+                        <div class="w-[60%]">
+                            <h1 class="text-customGreen text-4xl font-bold inline md:text-center">03.</h1>
+                            <h3 class="font-bold text-2xl inline">Customer Support 24/7</h3>
+                            <p class="text-customGray mt-4">Tere is a local service provider and we are proud to support you in your local language. We are proud to be at your service 24/7!</p>
+                        </div>
+                        <div class="h-40">
+                            <img class="h-full" src="../src/img-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <Footer class="mt-8 bg-white flex flex-col px-4 py-16 items-center md:flex-row md:gap-4 md:px-4 md:py-8 md:justify-around">
+        <div class="flex justify-center w-80">
+            <img class="h-8" src="../src/logo-black.png" alt="">
+        </div>
+        <div class="mt-4">
+            <h1 class="font-bold text-lg text-center">Be Our Friend</h1>
+            <p class="text-customGray">3, Season Park, Jakarta</p>
+            <p class="text-customGray">support@foodyar.co,id</p>
+            <p class="text-customGray">021 - 1111 - 2222</p>
+        </div>
+        <div class="mt-4">
+            <h1 class="font-bold text-lg text-center">Be Our Friend</h1>
+            <p class="text-customGray">3, Season Park, Jakarta</p>
+            <p class="text-customGray">support@foodyar.co,id</p>
+            <p class="text-customGray">021 - 1111 - 2222</p>
+        </div>
+        <div class="mt-4">
+            <button class="flex items-center bg-black text-white w-[150px] py-1 px-3">
+                <img src="../src/icon_play-store.png" alt="">
+                Download
+            </button>
+        </div>
+        <div class="mt-4">
+            <button class="flex items-center bg-black text-white w-[150px] py-1 px-3">
+                <img src="../src/icon_app-store.png" alt="">
+                Download
+            </button>
+        </div>
+    </Footer>
+</body>
+
+</html>
